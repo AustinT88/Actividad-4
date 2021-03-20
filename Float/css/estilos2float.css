@@ -1,0 +1,77 @@
+*{
+    color: rgb(0, 0, 0);
+}
+
+.ancho{
+    width: 1200px;
+}
+
+header{
+    height: 250px;
+    background-color: rgba(255, 255, 0, 0.548);
+    margin: auto;
+
+}
+
+nav{
+    height: 100px;
+    background-color: red;
+    margin: auto;
+     
+}
+
+main{
+    height: 500px;
+    background-color: lightsalmon;
+    margin: auto;
+    
+}
+
+article{
+    width: 33.33%;
+    height: 100px;
+    float: left;
+
+    
+}
+aside{
+    width:50% ;
+    height: 500px;
+    float: left;
+   
+}
+
+section{
+    width: 16.66%;
+    height: 250px;
+    float: left;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    margin: auto;
+}
+
+
+.n1{
+    background-color: rgba(20, 20, 182, 0.664);
+}
+
+.n2{
+    background-color: lightcoral;
+}
+.n3{
+    background-color: skyblue;
+}
+
+.n4{
+    background-color: rgb(205, 7, 245);
+}
+
+#prueba{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: black;
+}

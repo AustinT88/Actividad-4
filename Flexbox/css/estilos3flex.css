@@ -1,0 +1,55 @@
+.contenedor{
+    display: flex;
+    width:900px;
+    flex-wrap: wrap;
+}
+.rojo{
+    background-color:rgba(255, 0, 0, 0.534);
+    height: 200px;
+    width: 100px;
+}
+.azul{
+    background-color:rgba(0, 0, 255, 0.603);
+    height: 200px;
+    width: 100px;
+}
+.gris{
+    background-color:rgba(128, 128, 128, 0.582);
+    height: 200px;
+    width: 100px;
+}
+.negro{
+    background-color:rgb(255, 4, 221);
+    height: 300px;
+    width: 600px;
+}
+.naranja{
+    background-color:rgba(255, 166, 0, 0.616);
+    height: 300px;
+    width: 300px;
+}
+.color1{
+    background-color:rgba(255, 0, 0, 0.486);
+    height: 400px;
+    width: 400px;
+}
+.color2{
+    background-color:rgba(0, 0, 255, 0.37);
+    height: 400px;
+    width: 500px;
+}
+.color3{
+    background-color:rgba(172, 255, 47, 0.555);
+    height: 200px;
+    width: 900px;
+}
+.color4{
+    background-color:rgb(238, 197, 16);
+    height: 150px;
+    width: 300px;
+}
+.color5{
+    background-color:rgba(255, 166, 0, 0.596);
+    height: 150px;
+    width: 300px;
+}

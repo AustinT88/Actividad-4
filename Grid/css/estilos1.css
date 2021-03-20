@@ -1,0 +1,60 @@
+.contenedor{
+    display: grid;
+    margin:auto;
+    width: 1000px;
+    text-align: center;
+    vertical-align: middle;
+    grid-template-areas:'encab encab encab encab'
+    'Pagina1 Pagina2 Pagina3 Pagina4'
+    'section article article aside'
+    'pie pie pie pie';
+
+}
+header{
+   grid-area: encab;
+   background-color: rgba(255, 255, 0, 0.651);
+   height: 350px;
+  
+}
+.pag1{
+    grid-area: Pagina1;
+    background-color: rgba(255, 166, 0, 0.664);
+    height: 150px;
+}
+.pag2{
+    grid-area: Pagina2;
+    background-color: rgb(126, 65, 25);
+    height: 150px;
+}
+.pag3{
+    grid-area: Pagina3;
+    background-color: orange;
+    height: 150px;
+}
+.pag4{
+    grid-area: Pagina4;
+    background-color: gray;
+    height: 150px;
+}
+#left{
+    grid-area: section;
+    background-color: rgb(255, 47, 47);
+    height: 500px;
+}
+#article{
+    grid-area: article;
+    background-color: rgb(243, 151, 151);
+    height: 500px;
+}
+#right{
+    grid-area: aside;
+    background-color: rgb(211, 253, 148);
+    height: 500px;
+}
+footer{
+    grid-area: pie;
+    background-color: black;
+    height: 50px;
+    color:white;
+}
+
